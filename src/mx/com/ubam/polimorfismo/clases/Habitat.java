@@ -16,6 +16,7 @@ public class Habitat {
 		 animales.add(gato);
 		 animales.add(perro);
 		 animales.add(jirafa);
+		 animales.add(new Gato());
 		for(Animal miAnimal: animales)
 			miAnimal.correr();
 	}
